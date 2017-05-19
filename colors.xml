@@ -1,0 +1,14 @@
+<input pattern="(Hola) *">
+  <output value="Hola! Cual es tu color favorito?"/>
+
+  <context>
+    <sample>
+      <item>verde</item>
+      <item>azul</item>
+      <item>rojo</item>
+    </sample>
+    <input pattern="* $Color *">
+      <output value="Genial! Tambien es mi color favorito!"/>
+    </input>
+  </context>
+</input> 
